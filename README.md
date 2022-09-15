@@ -1,8 +1,5 @@
 # BelongsTo Field with Dependency
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/orlyapps/nova-belongsto-depend.svg?style=flat-square)](https://packagist.org/packages/Orlyapps/nova-belongsto-depend)
-[![Total Downloads](https://img.shields.io/packagist/dt/orlyapps/nova-belongsto-depend.svg?style=flat-square)](https://packagist.org/packages/Orlyapps/nova-belongsto-depend)
-
 ![Sample](https://raw.githubusercontent.com/orlyapps/nova-belongsto-depend/master/docs/sample.gif)
 
 ## Using an older version of Laravel?
@@ -11,21 +8,21 @@ This version is compatible with Laravel 5.8 and newer.
 
 If you use an older version of Laravel you can use an older version of the package. These aren't maintained anymore, but they should be pretty stable. We still accept small bugfixes.
 
--   [v1 for Laravel 5.7+ / PHP 7.0](https://github.com/orlyapps/nova-belongsto-depend/releases/tag/1.0.0)
+-   [v1 for Laravel 5.7+ / PHP 7.0](https://github.com/DiegoGILdev/nova-belongsto-depend/releases/tag/1.0.0)
 
 ## Installation
 
 You can install the package in to a Laravel app that uses [Nova](https://nova.laravel.com) via composer:
 
 ```bash
-composer require orlyapps/nova-belongsto-depend
+composer require diegogildev/nova-belongsto-depend
 ```
 
 Use this field in your Nova Resource
 
 ```php
 
-use Orlyapps\NovaBelongsToDepend\NovaBelongsToDepend;
+use DiegoGILdev\NovaBelongsToDepend\NovaBelongsToDepend;
 
 public function fields(Request $request)
 {
